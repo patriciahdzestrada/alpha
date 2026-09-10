@@ -8,7 +8,8 @@ from sklearn.metrics import r2_score
 from sklearn import metrics
 warnings.filterwarnings('ignore')
 
-df = pd.read_excel("FuelConsumptionCo2.xlsx")
+df = pd.read_csv("FuelConsumptionCo2.csv")
+
 
 df.drop(['MAKE', 'MODEL','VEHICLECLASS', 'TRANSMISSION','FUELTYPE'], axis=1, inplace= True)
 
