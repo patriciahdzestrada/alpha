@@ -32,7 +32,7 @@ pipeline {
 
         stage('Check Artifacts') {
             steps {
-                bat 'dir data'
+                bat 'dir'
             }
         }
 
