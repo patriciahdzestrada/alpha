@@ -80,3 +80,4 @@ pipeline {
             echo 'Pipeline fallo. Revisar los logs.'
         }
     }
+}
